@@ -46,8 +46,8 @@ const Detail = () => {
 
   return (
     <div className="bg-[rgb(7,24,36)] w-full min-h-screen pt-20 pb-20">
-      <div className="w-[1240px] container mx-auto p-6 bg-[rgb(14,45,66)] rounded-lg shadow-xl">
-        <h1 className="text-white text-4xl font-bold mb-6 border-b border-[rgb(32,61,80)] pb-3">
+      <div className="w-[1240px] container mx-auto p-6 bg-[rgb(14,45,66)] rounded-lg shadow-xl flex flex-col justify-center">
+        <h1 className="text-white text-4xl text-center font-bold mb-6 border-b border-[rgb(32,61,80)] pb-3">
           {product.title} Batafsil
         </h1>
 
