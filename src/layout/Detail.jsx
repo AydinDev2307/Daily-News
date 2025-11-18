@@ -59,34 +59,6 @@ const Detail = () => {
               className="w-full max-h-[400px] object-cover rounded-xl shadow-md"
             />
           </div>
-
-          <div className="text-white">
-            <p className="text-xl mb-3">
-              <strong className="text-[rgb(0,116,184)]">Brand:</strong>{' '}
-              {product.brand}
-            </p>
-            <p className="text-xl mb-3">
-              <strong className="text-[rgb(0,116,184)]">Narxi:</strong> $
-              {product.price}
-            </p>
-            <p className="text-xl mb-3">
-              <strong className="text-[rgb(0,116,184)]">Kategoriyasi:</strong>{' '}
-              {product.category}
-            </p>
-            <p className="text-xl mb-3">
-              <strong className="text-[rgb(0,116,184)]">Reyting:</strong>{' '}
-              {product.rating} ⭐
-            </p>
-            <p className="text-xl mb-6">
-              <strong className="text-[rgb(0,116,184)]">Omborda:</strong>{' '}
-              {product.stock} ta
-            </p>
-
-            <h2 className="text-2xl font-semibold mb-2 text-[rgb(0,116,184)]">
-              Tavsif:
-            </h2>
-            <p className="text-lg">{product.description}</p>
-          </div>
         </div>
       </div>
     </div>
